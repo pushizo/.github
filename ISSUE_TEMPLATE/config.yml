@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation · Dokümantasyon
+    url: https://docs.pushizo.com
+    about: Guides, API reference and troubleshooting · Rehberler, API referansı ve sorun giderme
+  - name: Security vulnerability · Güvenlik açığı
+    url: https://github.com/pushizo/.github/blob/main/SECURITY.md
+    about: Please report privately to security@pushizo.com · Lütfen security@pushizo.com adresine özel olarak bildirin
+  - name: Account, billing or delivery help · Hesap, fatura veya teslimat desteği
+    url: mailto:support@pushizo.com
+    about: For questions about your Pushizo account · Pushizo hesabınızla ilgili sorular için
