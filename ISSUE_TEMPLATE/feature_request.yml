@@ -1,0 +1,21 @@
+name: Feature request · Özellik önerisi
+description: Suggest an improvement to an SDK or the API · SDK ya da API için iyileştirme önerin
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve? · Hangi sorunu çözüyor?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution · Önerilen çözüm
+      description: API shape, example code or a link to a similar feature elsewhere · API biçimi, örnek kod ya da benzer bir özelliğin bağlantısı
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered · Düşünülen alternatifler

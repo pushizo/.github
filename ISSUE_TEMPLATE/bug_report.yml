@@ -1,0 +1,50 @@
+name: Bug report · Hata bildirimi
+description: Something in an SDK or the API does not work as documented · SDK ya da API belgelendiği gibi çalışmıyor
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report! Please do not include API keys, tokens or personal data.
+        Bildiriminiz için teşekkürler! API anahtarı, belirteç veya kişisel veri eklemeyin.
+  - type: input
+    id: version
+    attributes:
+      label: SDK version · SDK sürümü
+      placeholder: "0.1.0"
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment · Ortam
+      description: Platform, OS / browser, framework and runtime versions · Platform, işletim sistemi / tarayıcı, çatı ve çalışma ortamı sürümleri
+      placeholder: "iOS 18.1, Xcode 16.1 / Chrome 131 / Node.js 22"
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened? · Ne oldu?
+      description: Expected vs actual behavior · Beklenen ve gerçekleşen davranış
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce · Yeniden üretme adımları
+      description: A minimal code sample is the fastest way to a fix · En hızlı çözüm için küçük bir kod örneği
+      render: text
+    validations:
+      required: true
+  - type: input
+    id: request-id
+    attributes:
+      label: Request ID (optional · isteğe bağlı)
+      description: The `x-request-id` header or `request_id` from an API error · API hatasındaki `x-request-id` / `request_id`
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs · Loglar
+      description: Remove secrets before pasting · Yapıştırmadan önce gizli bilgileri silin
+      render: text
