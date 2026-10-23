@@ -105,4 +105,4 @@ yeniden deneme, idempotency, sayfalama ve webhook imza doğrulaması her dilde a
 - **Güvenlik açığı:** [security@pushizo.com](mailto:security@pushizo.com) — ayrıntı: [Güvenlik politikası](https://github.com/pushizo/.github/blob/main/SECURITY.md)
 - **Destek ve satış:** [support@pushizo.com](mailto:support@pushizo.com)
 
-<sub>Tüm SDK'lar MIT lisanslıdır. eski sağlayıcı'dan geçiş: [geçiş rehberi](https://docs.pushizo.com/docs/migration/eski sağlayıcı).</sub>
+<sub>Tüm SDK'lar MIT lisanslıdır. Mevcut platformdan geçiş: [geçiş rehberi](https://docs.pushizo.com/docs/migration/legacy).</sub>
