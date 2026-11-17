@@ -105,4 +105,4 @@ authentication, retries, idempotency, pagination and webhook signature verificat
 - **Security:** [security@pushizo.com](mailto:security@pushizo.com) — see the [security policy](https://github.com/pushizo/.github/blob/main/SECURITY.md)
 - **Help & sales:** [support@pushizo.com](mailto:support@pushizo.com)
 
-<sub>All SDKs are MIT licensed. Moving from OneSignal? See the [migration guide](https://docs.pushizo.com/docs/migration/onesignal).</sub>
+<sub>All SDKs are MIT licensed. Moving from your current platform? See the [migration guide](https://docs.pushizo.com/docs/migration/legacy).</sub>
